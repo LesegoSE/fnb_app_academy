@@ -4,3 +4,9 @@
  p{
     font-family: fantasy;
  }
+ ul{
+    list-style-image: url(images/pointer-icon.png);
+ }
+ li{
+    list-style-type:lower-roman;
+ }
