@@ -1,0 +1,103 @@
+html {
+    background-color: rgb(177, 159, 146);
+}
+
+.index {
+    background-color: rgb(58, 72, 79);
+}
+
+.navigation a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(74, 73, 73);
+    padding: 15px 15px 15px 18px;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: rgb(0, 155, 158);
+}
+
+.navigation {
+    background-color: rgb(212, 208, 208);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px 0px 10px 0px;
+}
+
+.gallery img {
+    width: 90%;
+    border: 7px solid rgb(167, 185, 191);
+    border-radius: 7px;
+    margin: 15px 0 15px 4%;
+}
+
+.gallery {
+    padding: 6px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    background-color: rgb(212, 208, 208);
+    color: rgb(74, 73, 73);
+    padding: 10px 5% 10px 5%;
+}
+
+h2:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    background-color: rgb(180, 179, 179);
+    color: rgb(54, 54, 54);
+}
+
+h3 {
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(64, 64, 64);
+    text-align: center;
+    padding-top: 20%;
+}
+
+h4 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    font-size: 40px;
+    background-color: rgb(212, 208, 208);
+    color: rgb(110, 108, 108);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    padding: 0 10% 0 10%;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    padding: 0 15% 0 15%;
+}
+
+li {
+    padding-bottom: 6px;
+}
+
+a.heroIndividualPic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(212, 208, 208);
+    color: rgb(74, 73, 73);
+    padding: 5px;
+    text-decoration: none;
+}
+
+a.heroIndividualPic:hover {
+    background-color: rgb(180, 179, 179);
+    color: rgb(4, 127, 45);
+}
