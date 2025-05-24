@@ -6,21 +6,21 @@ html {
     background-color: rgb(58, 72, 79);
 }
 
-.navigation a{
-    text-decoration:none ;
+.navigation a {
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: rgb(74, 73, 73);
     padding: 15px 15px 15px 18px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-.navigation a:hover{
+.navigation a:hover {
     color: rgb(0, 155, 158);
 }
 
-.navigation{
-    background-color:  rgb(212, 208, 208);
+.navigation {
+    background-color: rgb(212, 208, 208);
     padding: 5px;
     border-radius: 8px;
     margin: 10px 0px 10px 0px;
@@ -30,7 +30,7 @@ html {
     width: 90%;
     border: 7px solid rgb(167, 185, 191);
     border-radius: 7px;
-    margin: 15px 0 15px 4% ;
+    margin: 15px 0 15px 4%;
 }
 
 .gallery {
@@ -42,7 +42,7 @@ h2 {
     font-size: 60px;
     background-color: rgb(212, 208, 208);
     color: rgb(74, 73, 73);
-    padding: 5px;
+    padding: 10px 5% 10px 5%;
 }
 
 h2:hover {
@@ -50,8 +50,14 @@ h2:hover {
     font-size: 60px;
     background-color: rgb(180, 179, 179);
     color: rgb(54, 54, 54);
-    padding: 5px;
-    font-size: 61px;
+}
+
+h3 {
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(64, 64, 64);
+    text-align: center;
+    padding-top: 20%;
 }
 
 h4 {
@@ -67,6 +73,18 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: rgb(54, 54, 54);
+    padding: 0 10% 0 10%;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    padding: 0 15% 0 15%;
+}
+
+li {
+    padding-bottom: 6px;
 }
 
 a.heroIndividualPic {
