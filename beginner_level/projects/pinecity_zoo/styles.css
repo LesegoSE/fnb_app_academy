@@ -45,6 +45,7 @@ body{
     padding-top: 12px ;
 }
 
+ /*======== MAIN ========*/
 #main-home{
     margin-top: 120px;
 }
@@ -68,5 +69,51 @@ body{
     color: aliceblue;
     text-align: center;
     padding-top: 12px;
+}
 
+#main{
+    margin-top: 119px;
+    background: url(images/map-blur.png);
+}
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+ /*======== INFO-BOX ========*/
+a.info-box{
+    text-decoration: none;
+    background: rgba(241, 241, 241, 0.8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box img{
+    float: left;
+    height: 70px;
+    margin: 10px;
+}
+
+.info-box h3{
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 90%;
+    color: #572800;
+}
+
+.info-box p{
+    padding: 0px;
+    margin-top: 0px;
+    width: 90%;
+    color: #131313;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
 }
