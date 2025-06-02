@@ -75,27 +75,31 @@ body{
     margin-top: 119px;
     background: url(images/map-blur.png);
 }
+
 #content{
     padding-top: 1px;
     padding-bottom: 50px;
 }
 
+
  /*======== INFO-BOX ========*/
 a.info-box{
     text-decoration: none;
-    background: rgba(241, 241, 241, 0.8);
+    background: rgba(220, 196, 172, 0.8);
     width: 90%;
     height: 90px;
     display: block;
     margin: auto;
     margin-top: 12px;
     padding: 1px;
+    border-radius: 5px 50px 50px 5px;
 }
 
 .info-box img{
     float: left;
     height: 70px;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .info-box h3{
@@ -115,5 +119,26 @@ a.info-box{
 .info-box img.right{
     float: right;
     margin-top: 25px;
-    height: 40px;
+    height: 50px;
+    padding-right: 20px;
+}
+
+/*======== INFO-BOX-FULL ========*/
+
+.info-box-full{
+    background-color: rgba(220, 196, 172, 0.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h3{
+    text-align: center;
 }
