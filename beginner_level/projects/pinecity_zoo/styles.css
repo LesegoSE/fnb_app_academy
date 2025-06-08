@@ -1,11 +1,11 @@
-body{
+body {
     padding: 0;
     margin: 0;
     font-family: Helvetica;
 }
 
- /*======== HEADERS ========*/
-#header{
+/*======== HEADERS ========*/
+#header {
     position: fixed;
     top: 0;
     left: 0;
@@ -16,14 +16,15 @@ body{
     background-repeat: repeat-x;
 }
 
-#header img{
+#header img {
     display: block;
     margin: auto;
     height: 70%;
     padding-top: 15px;
 }
- /*======== TOP-TABS ========*/
-#tabs-top{
+
+/*======== TOP-TABS ========*/
+#tabs-top {
     position: fixed;
     top: 80px;
     left: 0;
@@ -33,7 +34,7 @@ body{
     background-color: darkgreen;
 }
 
-#tabs-top a{
+#tabs-top a {
     float: left;
     display: block;
     width: 33%;
@@ -42,15 +43,15 @@ body{
     color: aliceblue;
     font-weight: 700;
     text-align: center;
-    padding-top: 12px ;
+    padding-top: 12px;
 }
 
- /*======== MAIN ========*/
-#main-home{
+/*======== MAIN ========*/
+#main-home {
     margin-top: 120px;
 }
 
-#tabs-bottom{
+#tabs-bottom {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -59,8 +60,9 @@ body{
     height: 40px;
     background-color: forestgreen;
 }
-#tabs-bottom a{
-    float: left ;
+
+#tabs-bottom a {
+    float: left;
     text-decoration: none;
     display: block;
     height: 35px;
@@ -71,19 +73,19 @@ body{
     padding-top: 12px;
 }
 
-#main{
+#main {
     margin-top: 119px;
     background: url(images/map-blur.png);
 }
 
-#content{
+#content {
     padding-top: 1px;
     padding-bottom: 50px;
 }
 
 
- /*======== INFO-BOX ========*/
-a.info-box{
+/*======== INFO-BOX ========*/
+a.info-box {
     text-decoration: none;
     background: rgba(220, 196, 172, 0.8);
     width: 90%;
@@ -95,28 +97,28 @@ a.info-box{
     border-radius: 5px 50px 50px 5px;
 }
 
-.info-box img{
+.info-box img {
     float: left;
     height: 70px;
     margin: 10px;
     border-radius: 5px;
 }
 
-.info-box h3{
+.info-box h3 {
     padding: 0px;
     margin-bottom: 0px;
     width: 90%;
     color: #572800;
 }
 
-.info-box p{
+.info-box p {
     padding: 0px;
     margin-top: 0px;
     width: 90%;
     color: #131313;
 }
 
-.info-box img.right{
+.info-box img.right {
     float: right;
     margin-top: 25px;
     height: 50px;
@@ -125,7 +127,7 @@ a.info-box{
 
 /*======== INFO-BOX-FULL ========*/
 
-.info-box-full{
+.info-box-full {
     background-color: rgba(220, 196, 172, 0.8);
     width: 90%;
     display: block;
@@ -135,10 +137,111 @@ a.info-box{
     border-radius: 5px;
 }
 
-#info-box-full img{
+.info-box-full img {
     width: 100%;
+    border-radius: 5px;
 }
 
-#info-box-full h3{
+.info-box-full h3 {
     text-align: center;
+}
+
+/*======== INFO-BOX-WEATHER ========*/
+
+.info-box-weather {
+    background-color: rgba(220, 196, 172, 0.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.info-box-weather img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.info-box-weather h3 {
+    text-align: center;
+}
+.info-box-weather h1 {
+    text-align: center;
+    color: #131313;
+}
+
+
+/*======== INFO-BOX-WEATHER-ICON ========*/
+
+img.info-box-weather-icon{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    float: left;
+}
+
+h1.info-box-weather-icon {
+    font-size: 65px;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    width: 100%;
+}
+td{
+    border-top: 2px solid #303030;
+}
+
+/*======== INFO-BOX-MESSAGE ========*/
+
+.info-box-message {
+    background-color: rgba(220, 196, 172, 0.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.info-box-message img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.info-box-message h3 {
+    text-align: center;
+}
+.info-box-message p {
+    text-align: center;
+    color: #131313;
+}
+
+/*======== FEEDBACK FORM ========*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+textarea {
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+.button{
+    display: block;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+    border-radius: 5px;
 }
