@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather Advisor</title>
+</head>
+
+<body>
+    <label for="weather">What's the weather like?</label>
+    <select id="weather">
+        <option value="sunny">Sunny</option>
+        <option value="windy">Windy</option>
+        <option value="rainy">Rainy</option>
+        <option value="snowy">Snowy</option>
+        <option value="cloudy">Cloudy</option>
+    </select>
+    <a href="#" onclick="checker()">Hareye!!</a>
+    <p id="outputText">_______________</p>
+
+    <script>
+
+        function checker() {
+            var selection = document.getElementById("weather").value;
+            var advice;
+
+            switch (selection) {
+                case "windy":
+                    advice = " stay indors and draw";
+                    break;
+                case "sunny":
+                    advice = " go outside and enjoy the sun!";
+                    break;
+                case "rainy":
+                    advice = " take an umbrella with you!";
+                    break;
+                case "snowy":
+                    advice = " wear something warm and have fun!";
+                    break;
+                case "cloudy":
+                    advice = " maybe take a light jacket.";
+                    break;
+
+                default: advice = "Windy";
+
+            }
+            document.getElementById("outputText").innerHTML = "We recommend you" + advice;
+        }
+    </script>
+</body>
+
+</html>

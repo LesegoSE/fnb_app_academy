@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Welcome, Please log in</p>
+
+    <form>
+        <label for="usernameInput">Username:</label><input type="text" id="usernameInput"><br />
+        <label for="passwordInput">Password:</label><input type="password" id="passwordInput"><br />
+        <p id="message"></p>
+        <br />
+        <br />
+        <a href="#" onclick="validateForm()">Don't click to login :)</a>
+    </form>
+    <script>
+
+        function validateForm(){
+            var username = document.getElementById("usernameInput").value;
+            var password = document.getElementById("passwordInput").value;
+
+            checker(username,password);
+        }
+
+        function checker(username, password) {
+
+            var sysUsername = "do";
+            var sysPassword = "011";
+            
+            if (username == sysUsername && password == sysPassword){
+                document.getElementById('message').innerHTML = "Thhhee code is.... CORRECTOOO!!!";
+            } else{
+                document.getElementById('message').innerHTML = 'INCORRECTO PASSWORDO OR USERNAME-O!!!!!!!';
+            }
+            
+        }
+
+    </script>
+
+</body>
+
+</html>
