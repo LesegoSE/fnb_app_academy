@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Guijo Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="4">
+                <input type="text" id="inputBox" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td onclick="btnDgtPress(7)">7</td>
+            <td onclick="btnDgtPress(8)">8</td>
+            <td onclick="btnDgtPress(9)">9</td>
+            <td onclick="btnOperator('x')">x</td>
+        </tr>
+        <tr>
+            <td onclick="btnDgtPress(4)">4</td>
+            <td onclick="btnDgtPress(5)">5</td>
+            <td onclick="btnDgtPress(6)">6</td>
+            <td onclick="btnOperator('-')">-</td>
+        </tr>
+        <tr>
+            <td onclick="btnDgtPress(1)">1</td>
+            <td onclick="btnDgtPress(2)">2</td>
+            <td onclick="btnDgtPress(3)">3</td>
+            <td onclick="btnOperator('+')">+</td>
+        </tr>
+        <tr>
+            <td colspan="2" onclick="btnDgtPress(0)">0</td>
+            <td onclick="btnClear()">AC</td>
+            <td onclick="btnOperator('/')">/</td>
+        </tr>
+        <tr>
+            <td colspan="4" onclick="btnEquals()">=</td>
+        </tr>
+    </table>
+
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
