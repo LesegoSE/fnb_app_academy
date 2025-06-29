@@ -10,6 +10,11 @@ function fetchContacts() {
 
 function displayOutput(data) {
     output = "<table>";
+    output += `<tr> 
+                        <td>Profile</td>
+                        <td>Name</td>
+                        <td>Surname</td>
+                </tr>`;
 
     for (a in data) {
         output += `<tr> 
