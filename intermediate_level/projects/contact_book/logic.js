@@ -1,4 +1,5 @@
 document.getElementById("refresh").addEventListener('click', fetchContacts);
+document.getElementById("addContact").addEventListener('click',addContact);
 
 function fetchContacts() {
     fetch(rootPath + "controller/get-contacts/")
@@ -33,4 +34,8 @@ function displayOutput(data) {
     }
     output += "</table>";
     document.getElementById("table").innerHTML = output;
+}
+
+function addContact() {
+    window.open("add-contact.html", "_self");
 }
