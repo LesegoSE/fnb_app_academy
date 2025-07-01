@@ -20,7 +20,7 @@ function displayOutput(data) {
                 </tr>`;
 
     for (a in data) {
-        output += `<tr> 
+        output += `<tr onclick="editContact(${data[a].id})"> 
                         <td> 
                             <img src="${rootPath}controller/uploads/${data[a].avatar} " width="40p"/>
                         </td>  
@@ -38,4 +38,8 @@ function displayOutput(data) {
 
 function addContact() {
     window.open("add-contact.html", "_self");
+}
+
+function editContact(id) {
+    window.open("edit-contact.html?id=" + id, "_self");
 }
