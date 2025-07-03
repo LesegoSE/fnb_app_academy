@@ -78,7 +78,7 @@ function deleteContact() {
     var confirmDelete = confirm("Do you want to delete this contact?");
 
     if (confirmDelete == true){
-        fetch(rootPath + "controller/delete-contact/?id" + id)
+        fetch(rootPath + "controller/delete-contact/?id=" + id)
         .then(function(response){
             return response.text();
         })
